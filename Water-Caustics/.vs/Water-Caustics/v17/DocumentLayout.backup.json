@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Advanced Graphics Assignments\\Water-Caustics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|e:\\advanced graphics assignments\\water-caustics\\assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|e:\\advanced graphics assignments\\water-caustics\\assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\caustics.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -90,16 +90,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Wave.shader",
               "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Wave.shader",
               "RelativeDocumentMoniker": "Assets\\Shaders\\Wave.shader",
               "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Wave.shader",
               "RelativeToolTip": "Assets\\Shaders\\Wave.shader",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAABAwAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-01-22T10:49:32.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T10:49:32.667Z"
             },
             {
               "$type": "Document",
@@ -115,15 +114,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Manager.cs",
               "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Scripts\\Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager.cs",
               "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Scripts\\Manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAHMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T18:13:27.687Z"
+              "WhenOpened": "2025-01-20T18:13:27.687Z",
+              "EditorCaption": ""
             }
           ]
         }

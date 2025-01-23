@@ -124,6 +124,7 @@ public class Manager : MonoBehaviour
                 cameraOrbit.Rotate(0f, yRotation, 0f, Space.World);
             }
         }
+        else dragState = 0;
 
         foreach (var material in materials) material.SetVector("sphereCenter", sphereCenter);
 

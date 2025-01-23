@@ -54,6 +54,6 @@ Material:
     m_Colors:
     - light: {r: 0.6562178, g: 0.69221956, b: 0.3003507, a: 0}
     - lightDir: {r: 0.6562178, g: 0.69221956, b: 0.3003507, a: 0}
-    - sphereCenter: {r: -0.4, g: -0.75, b: 0.2, a: 0}
+    - sphereCenter: {r: 0.49044254, g: -0.75000006, b: 0.30845177, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
