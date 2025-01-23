@@ -59,10 +59,8 @@ public class Manager : MonoBehaviour
         zones = waves.ToArray();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        text.text = $"FPS: {(int)(1 / Time.deltaTime)} ({(int)(1000 * Time.deltaTime)}ms)";
-
         Vector3 inputPosition = Vector3.zero;
 
 #if UNITY_EDITOR || UNITY_STANDALONE
@@ -85,16 +83,16 @@ public class Manager : MonoBehaviour
 
             if (dragState == 0)
             {
-                if (surface.Raycast(ray, out hit, 100f))
+                if (sphere.Raycast(ray, out hit, 100f))
+                {
+                    dragState = 1;
+                    bias = Camera.main.WorldToScreenPoint(sphere.bounds.center) - inputPosition;
+                }
+                else if (surface.Raycast(ray, out hit, 100f))
                 {
                     waveZone.updateZoneSize = new Vector2(-0.1f, -0.1f);
                     waveZone.updateZoneCenter = new Vector2(hit.point.x / 2 + 0.5f, 0.5f - hit.point.z / 2);
                     zones = new CustomRenderTextureUpdateZone[] { defaultZone, waveZone, normalZone };
-                }
-                else if (sphere.Raycast(ray, out hit, 100f))
-                {
-                    dragState = 1;
-                    bias = Camera.main.WorldToScreenPoint(sphere.bounds.center) - inputPosition;
                 }
                 else dragState = 2;
             }
@@ -132,6 +130,11 @@ public class Manager : MonoBehaviour
         if (zones != null) { texture.SetUpdateZones(zones); zones = null; }
         else texture.SetUpdateZones(new CustomRenderTextureUpdateZone[] { defaultZone, normalZone });
         texture.Update(1);
+    }
+
+    void Update()
+    {
+        text.text = $"FPS: {(int)(1 / Time.deltaTime)} ({(int)(1000 * Time.deltaTime)}ms)";
     }
 
     float[] IntersectRayWithBox(Ray ray)

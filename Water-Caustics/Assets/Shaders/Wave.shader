@@ -52,11 +52,9 @@ Shader "Wave"
     {
         float2 coord = IN.localTexcoord.xy;
         float4 info = tex2D(_SelfTexture2D, IN.globalTexcoord.xy);
-
         float drop = max(0, 1.0 - length(float2(0.5, 0.5) - coord) / 0.5);
-        info.r += (drop - 0.25 * PI / 3) * _Strength;
-        //drop = max(0, 1.0 - length(float2(0.5, 0.5) - coord) / 0.5);
-        //info.r += (drop - 0.25 * (PI / 2 - 2 / PI)) * _Strength;
+        drop = drop = 0.5 - cos(drop * PI) * 0.5;
+        info.r += (drop - 0.25 * (PI / 2 - 2 / PI)) * _Strength;
         return info;
     }
     ENDHLSL

@@ -164,7 +164,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.InkcatStudio.WaterCaustics
-    Standalone: com.DefaultCompany.Water-WebGL
+    Standalone: com.Inkcat-Studio.Water-Caustics
   buildNumber:
     Standalone: 0
     VisionOS: 0
