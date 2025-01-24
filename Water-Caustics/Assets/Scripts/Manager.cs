@@ -133,10 +133,10 @@ public class Manager : MonoBehaviour
         texture.Update(1);
     }
 
-    void Update()
-    {
-        text.text = $"FPS: {(int)(1 / Time.deltaTime)} ({(int)(1000 * Time.deltaTime)}ms)";
-    }
+    //void Update()
+    //{
+    //    text.text = $"FPS: {(int)(1 / Time.deltaTime)} ({(int)(1000 * Time.deltaTime)}ms)";
+    //}
 
     float[] IntersectRayWithBox(Ray ray)
     {
