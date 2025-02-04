@@ -28,9 +28,6 @@
     <ClInclude Include="AcceleratedRayTracer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stb_image_write.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="RayTraceModels.h">
       <Filter>头文件</Filter>
     </ClInclude>

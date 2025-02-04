@@ -17,7 +17,7 @@ int main()
 {
     if (!glfwInit()) 
     {
-        std::cerr << "Failed to initialize GLFW" << std::endl;
+        cerr << "Failed to initialize GLFW" << endl;
         return -1;
     }
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
@@ -27,7 +27,7 @@ int main()
     GLFWwindow* window = glfwCreateWindow(width, height, "Ray Tracing", nullptr, nullptr);
     if (!window) 
     {
-        std::cerr << "Failed to create GLFW window" << std::endl;
+        cerr << "Failed to create GLFW window" << endl;
         glfwTerminate();
         return -1;
     }
@@ -37,7 +37,7 @@ int main()
     glewExperimental = GL_TRUE;
     if (glewInit() != GLEW_OK) 
     {
-        std::cerr << "Failed to initialize GLEW" << std::endl;
+        cerr << "Failed to initialize GLEW" << endl;
         glfwTerminate();
         return -1;
     }
@@ -95,7 +95,7 @@ int main()
         if (currentTime - lastTime >= 1.0) 
         { 
             double fps = frameCnt / (currentTime - lastTime);
-            std::stringstream ss;
+            stringstream ss;
             ss << "Ray Tracing - FPS: " << fps;
             glfwSetWindowTitle(window, ss.str().c_str());
             frameCnt = 0; lastTime = currentTime;
@@ -122,30 +122,6 @@ int main()
 				num += count; minNum = std::min(minNum, count); maxNum = std::max(maxNum, count);
             }
             printf("Avg: %d, Min: %d, Max: %d\n", num / pixelCount, minNum, maxNum);
-
-            vector<vec3> imageData(pixelCount);
-            for (int i = 0; i < pixelCount; ++i)
-            {
-                int count = aabbCollisions[i];
-                float normalized = float(count - minNum) / float(maxNum - minNum);  
-                vec3 color = vec3(normalized, 1.0f - normalized, 0.0f); 
-                imageData[i] = color;
-            }
-
-            SaveImage("CollisionInfo.png", imageData, width, height);
-
-            int numBins = 5;
-            vector<int> histogram(numBins, 0);
-
-            int binSize = (maxNum / numBins) + 1;
-            for (int count : aabbCollisions)
-            {
-                histogram[count / binSize]++;
-            }
-			for (int i = 0; i < numBins; i++)
-			{
-				printf("Bin %d: %d\n", i, histogram[i]);
-			}
         }
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

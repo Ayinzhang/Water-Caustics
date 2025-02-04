@@ -139,7 +139,6 @@
   <ItemGroup>
     <ClInclude Include="AcceleratedRayTracer.h" />
     <ClInclude Include="RayTraceModels.h" />
-    <ClInclude Include="stb_image_write.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -63,18 +63,18 @@ struct Triangle
 	bool operator<(const Triangle& other) const
 	{
 		if (v0.x != other.v0.x) return v0.x < other.v0.x;
-		if (v0.y != other.v0.y) return v0.y < other.v0.y;
-		if (v0.z != other.v0.z) return v0.z < other.v0.z;
-		if (v1.x != other.v1.x) return v1.x < other.v1.x;
-		if (v1.y != other.v1.y) return v1.y < other.v1.y;
-		if (v1.z != other.v1.z) return v1.z < other.v1.z;
-		if (v2.x != other.v2.x) return v2.x < other.v2.x;
-		if (v2.y != other.v2.y) return v2.y < other.v2.y;
-		if (v2.z != other.v2.z) return v2.z < other.v2.z;
+		else if (v0.y != other.v0.y) return v0.y < other.v0.y;
+		else if (v0.z != other.v0.z) return v0.z < other.v0.z;
+		else if (v1.x != other.v1.x) return v1.x < other.v1.x;
+		else if (v1.y != other.v1.y) return v1.y < other.v1.y;
+		else if (v1.z != other.v1.z) return v1.z < other.v1.z;
+		else if (v2.x != other.v2.x) return v2.x < other.v2.x;
+		else if (v2.y != other.v2.y) return v2.y < other.v2.y;
+		else if (v2.z != other.v2.z) return v2.z < other.v2.z;
 		return false;
 	}
 
-	void GetAABB(vec3& minCorner, vec3& maxCorner)
+	void CalAABB(vec3& minCorner, vec3& maxCorner)
 	{
 		minCorner = min(v0, min(v1, v2));
 		maxCorner = max(v0, max(v1, v2));
@@ -163,7 +163,7 @@ struct Model
 		for (int i = start; i < end; i++)
 		{
 			vec3 minCorner, maxCorner;
-			triangles[i].GetAABB(minCorner, maxCorner);
+			triangles[i].CalAABB(minCorner, maxCorner);
 			box.Expand(AABB(minCorner, maxCorner));
 		}
 		node->box = box;
@@ -181,8 +181,7 @@ struct Model
 
 		sort(triangles.begin() + start, triangles.begin() + end,
 			[axis](const Triangle& a, const Triangle& b) {
-				return (a.v0[axis] + a.v1[axis] + a.v2[axis]) / 3 <
-					(b.v0[axis] + b.v1[axis] + b.v2[axis]) / 3;
+				return a.v0[axis] + a.v1[axis] + a.v2[axis] < b.v0[axis] + b.v1[axis] + b.v2[axis];
 			});
 
 		int mid = start + count / 2;
@@ -193,13 +192,12 @@ struct Model
 
 	BVHNode* BuildBVHSAH(int start, int end)
 	{
-		BVHNode* node = new BVHNode();
-		AABB box;
+		BVHNode* node = new BVHNode(); AABB box;
 
 		for (int i = start; i < end; i++)
 		{
 			vec3 minCorner, maxCorner;
-			triangles[i].GetAABB(minCorner, maxCorner);
+			triangles[i].CalAABB(minCorner, maxCorner);
 			box.Expand(AABB(minCorner, maxCorner));
 		}
 		node->box = box;
@@ -219,8 +217,7 @@ struct Model
 		{
 			sort(triangles.begin() + start, triangles.begin() + end,
 				[axis](const Triangle& a, const Triangle& b) {
-					return (a.v0[axis] + a.v1[axis] + a.v2[axis]) / 3 <
-						(b.v0[axis] + b.v1[axis] + b.v2[axis]) / 3;
+					return a.v0[axis] + a.v1[axis] + a.v2[axis] < b.v0[axis] + b.v1[axis] + b.v2[axis];
 				});
 
 			vector<AABB> prefixAABB(count), suffixAABB(count);
@@ -255,8 +252,7 @@ struct Model
 
 		sort(triangles.begin() + start, triangles.begin() + end,
 			[bestAxis](const Triangle& a, const Triangle& b) {
-				return (a.v0[bestAxis] + a.v1[bestAxis] + a.v2[bestAxis]) / 3 <
-					(b.v0[bestAxis] + b.v1[bestAxis] + b.v2[bestAxis]) / 3;
+				return a.v0[bestAxis] + a.v1[bestAxis] + a.v2[bestAxis] < b.v0[bestAxis] + b.v1[bestAxis] + b.v2[bestAxis];
 			});
 
 		int mid = start + bestSplit;

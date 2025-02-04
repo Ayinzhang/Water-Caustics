@@ -1,67 +1,67 @@
 ﻿  AcceleratedRayTracer.cpp
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,20): warning C4101: “vn0”: 未引用的局部变量
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,20): warning C4101: “vn0”: 未引用的局部变量
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,25): warning C4101: “vn1”: 未引用的局部变量
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,25): warning C4101: “vn1”: 未引用的局部变量
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,30): warning C4101: “vn2”: 未引用的局部变量
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(124,30): warning C4101: “vn2”: 未引用的局部变量
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(283,62): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(279,62): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(284,56): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(280,56): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.h(118,15): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.h(102,15): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.h(118,39): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.h(102,39): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
   (编译源文件“AcceleratedRayTracer.cpp”)
   
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(10,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(10,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(11,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(11,41): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(12,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(12,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(56,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(94,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305: “参数”: 从“double”到“T”截断
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         with
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         [
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:             T=float
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         ]
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(119,33): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(119,47): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(159,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(160,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(10,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(10,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(11,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(11,41): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(12,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(12,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(56,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(94,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(105,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(106,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(107,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(108,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(109,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305: “参数”: 从“double”到“T”截断
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         with
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         [
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:             T=float
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(110,83): warning C4305:         ]
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(119,33): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(119,47): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(135,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\AcceleratedRayTracer.cpp(136,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
 D:\Visual Studio 2022\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4267: “初始化”: 从“size_t”转换到“_Ty2”，可能丢失数据
 D:\Visual Studio 2022\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4267:         with
 D:\Visual Studio 2022\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4267:         [
@@ -70,14 +70,14 @@ D:\Visual Studio 2022\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning
   (编译源文件“AcceleratedRayTracer.cpp”)
       D:\Visual Studio 2022\VC\Tools\MSVC\14.42.34433\include\utility(263,54):
       模板实例化上下文(最早的实例化上下文)为
-          E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(302,28):
+          E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(298,28):
           查看对正在编译的函数 模板 实例化“std::pair<BVHNode *,int>::pair<BVHNode*&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept”的引用
           with
           [
               _Other1=BVHNode *&,
               _Other2=unsigned __int64
           ]
-              E:\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(302,27):
+              E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\Accelerated Ray Tracer\RayTraceModels.h(298,27):
               请参阅 "Model::SerializeBVH" 中对 "std::pair<BVHNode *,int>::pair" 的第一个引用
   
-  Accelerated Ray Tracer.vcxproj -> E:\Accelerated-Ray-Tracer\x64\Debug\Accelerated Ray Tracer.exe
+  Accelerated Ray Tracer.vcxproj -> E:\Advanced-Graphics-Assignments\Accelerated-Ray-Tracer\x64\Debug\Accelerated Ray Tracer.exe

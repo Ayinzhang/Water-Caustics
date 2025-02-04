@@ -2,7 +2,6 @@
 #define GLM_ENABLE_EXPERIMENTAL
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "RayTraceModels.h"
-#include "stb_image_write.h"
 
 float screenVertices[] = 
 {
@@ -24,21 +23,6 @@ vec3 MinVec3(const vec3& a, const vec3& b)
 vec3 MaxVec3(const vec3& a, const vec3& b) 
 {
 	return vec3(std::max(a.x, b.x), std::max(a.y, b.y), std::max(a.z, b.z));
-}
-
-void SaveImage(const char* filename, const vector<vec3>& imageData, int width, int height)
-{
-	vector<unsigned char> outputImage(width * height * 3);
-
-	for (int i = 0; i < width * height; ++i)
-	{
-		vec3 color = imageData[i];
-		outputImage[i * 3] = static_cast<unsigned char>(std::min(color.r, 1.0f) * 255);
-		outputImage[i * 3 + 1] = static_cast<unsigned char>(std::min(color.g, 1.0f) * 255);
-		outputImage[i * 3 + 2] = static_cast<unsigned char>(std::min(color.b, 1.0f) * 255);
-	}
-
-	stbi_write_png(filename, width, height, 3, outputImage.data(), width * 3);
 }
 
 struct Shader
