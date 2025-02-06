@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Advanced Graphics Assignments\\Water-Caustics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|e:\\advanced graphics assignments\\water-caustics\\assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\caustics.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\caustics.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\cube.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\cube.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\sphere.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\sphere.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\water.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\water.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|E:\\Advanced Graphics Assignments\\Water-Caustics\\assets\\shaders\\watercaustics.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C8CF739E-B737-C7B1-F935-D4CB253362F9}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\watercaustics.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WaterCaustics.hlsl",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\WaterCaustics.hlsl",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\WaterCaustics.hlsl",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\WaterCaustics.hlsl",
+              "RelativeToolTip": "Assets\\Shaders\\WaterCaustics.hlsl",
+              "ViewState": "AgIAACIAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:50:32.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Water.shader",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Water.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Water.shader",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Water.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Water.shader",
+              "ViewState": "AgIAADwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:50:26.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sphere.shader",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Sphere.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Sphere.shader",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Sphere.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Sphere.shader",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:50:21.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cube.shader",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Cube.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Cube.shader",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Cube.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Cube.shader",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:50:14.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wave.shader",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Wave.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Wave.shader",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Wave.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Wave.shader",
+              "ViewState": "AgIAAFIAAAAAAAAAAABAwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:49:32.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Caustics.shader",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Caustics.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Caustics.shader",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Shaders\\Caustics.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Caustics.shader",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-01-22T10:49:21.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Scripts\\Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager.cs",
+              "ToolTip": "E:\\Advanced Graphics Assignments\\Water-Caustics\\Assets\\Scripts\\Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:13:27.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
