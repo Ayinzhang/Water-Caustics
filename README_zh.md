@@ -1,15 +1,13 @@
-### 高级图形学作业
+### 水体焦散渲染
 
 [English Version](README.md)
 
-*作业一：加速光追结构-OpenGL GPU光追*
-
-*作业二：自选主题-水体焦散渲染*
+利用焦散贴图渲染水体的阴影和焦散，性能表现极佳
 
 <div align=center>
-<img src="Accelerated-Ray-Tracer/RayTrace.png" width = "35%" height = "35%" />
+<img src="demo.gif" width = "50%" height = "50%" />
 </div> 
 
 <div align=center>
-<img src="Water-Caustics/demo.gif" width = "50%" height = "50%" />
+<img src="cmp.png" width = "60%" height = "60%" />
 </div> 

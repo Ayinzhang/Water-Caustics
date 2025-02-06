@@ -1,16 +1,13 @@
-### Advanced-Graphics-Assignments
+### Water-Caustics
 
 [中文版](README_zh.md)
 
-*Ass 1: Accelerated ray tracing structure - OpenGL GPU ray tracing*
-
-*Ass 2: Self-selected topic - Water caustic rendering*
+Rendering water shadows and caustics with caustics mapping, which shows excellent performance
 
 <div align=center>
-<img src="Accelerated-Ray-Tracer/RayTrace.png" width = "35%" height = "35%" />
+<img src="demo.gif" width = "50%" height = "50%" />
 </div> 
 
 <div align=center>
-<img src="Water-Caustics/demo.gif" width = "50%" height = "50%" />
+<img src="cmp.png" width = "60%" height = "60%" />
 </div> 
-
