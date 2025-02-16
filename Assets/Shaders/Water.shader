@@ -98,13 +98,6 @@ Shader "Water"
             {
                 float2 coord = i.position.xz * 0.5 + 0.5;
                 float4 info = SAMPLE_TEXTURE2D(_WaveMap, sampler_WaveMap, coord);
-
-                for (int j = 0; j < 5; j++) 
-                {
-                    coord += info.ba * 0.005;
-                    info = SAMPLE_TEXTURE2D(_WaveMap, sampler_WaveMap, coord);
-                }
-
                 float3 normal = float3(info.b, sqrt(1.0 - dot(info.ba, info.ba)), info.a);
                 float3 incomingRay = normalize(i.position - GetCameraPositionWS());
 
@@ -118,7 +111,6 @@ Shader "Water"
                 float4 col = float4(lerp(reflectedColor, saturate(refractedColor), (1.0 - fresnel) * length(refractedRay)), 1.0);
                 
                 #else
-                /* above _WaveMap */
                 float3 reflectedRay = reflect(incomingRay, normal);
                 float3 refractedRay = refract(incomingRay, normal, IOR_AIR / IOR_WATER);
                 float fresnel = lerp(0.25, 1.0, pow(1.0 - dot(normal, -incomingRay), 3.0));

@@ -35,12 +35,12 @@ float3 GetSphereColor(float3 _point)
 {
     float3 color = float3(0.5, 0.5, 0.5);
 
-    /* ambient occlusion with walls */
+    // Ambient occlusion with walls
     color *= 1.0 - 0.9 / pow((1.0 + 0.25 - abs(_point.x)) / 0.25, 3.0);
     color *= 1.0 - 0.9 / pow((1.0 + 0.25 - abs(_point.z)) / 0.25, 3.0);
     color *= 1.0 - 0.9 / pow((_point.y + 1.0 + 0.25) / 0.25, 3.0);
 
-    /* caustics */
+    // Caustics 
     float3 sphereNormal = (_point - sphereCenter) / 0.25;
     float3 refractedLight = refract(-GetMainLight().direction, float3(0.0, 1.0, 0.0), IOR_AIR / IOR_WATER);
     float diffuse = max(0.0, dot(-refractedLight, sphereNormal)) * 0.5;
